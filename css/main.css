@@ -1,30 +1,20 @@
 #all{
-  background-color: antiquewhite;
-  margin: 0 12%;
+  margin: 0 2%;
+  background-color: azure;
 }
+
 #head{
   width: 100%;
   height: 100px;
-  background-color: aliceblue;
+  background-color: white;
 }
-#content{
-  width: 100%;
-  height: 1000px;
-  background-color: #555555;
-  display: flex;
-}
-#foot{
-  width: 100%;
-  height: 100px;
-  background-color: aquamarine;
-}
-#navigation-bar{
+.navigation-bar{
   width: 100%;
   height: 60%;
   background-color: black;
 }
 .navigation-item{
-  color: azure;
+  color: white;
   width: 7%;
   float: left;
   text-align: center;
@@ -33,22 +23,86 @@
 .navigation-selected{
   background-color: #FF7D00;
 }
-#announcement{
+.announcement{
   width: 100%;
   height: 40%;
-  background-color: azure;
   padding: 10px 0;
   text-align: left;
 }
-#content-left{
-  width: 75%;
-  height: 100%;
-  background-color: red;
 
+#content{
+  width: 100%;
+  height: 2000px;
+  display: flex;
+}
+
+#content-left{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}
+.movie-detail{
+  overflow: hidden;
+  background-size:contain;
+  padding: 5px;
+  border:1px solid black;
+  display: inline-block;
+  width: 31%;
+  float: left;
+  margin-top: 5px;
+  height: auto;
+ 
 }
 #content-right{
-  width: 25%;
+  margin-top: 5px;
+  width: 15%;
   height: 100%;
-  background-color: blue;
 
 }
+.search{
+  font-size: 8px;
+  margin-top: 2px;
+  width: 100%;
+  display: flex;
+  border:1px solid #ffffff;
+  height: 30px;
+}
+.movie-catalog{
+  font-size: 8px;
+  margin-top: 20px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  border:1px solid black;
+  
+}
+.new-movie{
+  
+  float: left;
+  text-align: center;
+  width:30%;
+ 
+}
+.new-series{
+ 
+  float: left;
+  text-align: center; 
+  width:30%;
+}
+.varity{
+  
+  float: left;
+  text-align: center;
+  width:30%;
+}
+
+
+#foot{
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
+
